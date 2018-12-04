@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tutorial</title>
+    <style>
+    .laukia {
+        
+       background-color: black;
+        width: 50px;
+        height: 50px;
+        position:absolute;
+        left: 100px;
+        top: 100px
+    }
+    </style>
+   
+</head>
+<body>
+<div id="laukia01" class="laukia">  </div>
+    
+<script>
+  
+var x = 5px;
+var y = laukia01.style.Top;
+var z = laukia01.style.Left;
+
+
+function arriba_abajo(){
+    if (keydown) {
+        y + x;
+    } else if(keyup) {
+        y - x
+    } else if(keyleft) {
+        z - x
+    }  else if(keyright) {
+        z + x
+    }
+}
+
+laukia01 = document.getElementById("laukia01");
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
