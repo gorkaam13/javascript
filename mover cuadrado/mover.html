@@ -29,7 +29,9 @@
 
         function keyboard (key) {
            //console.log(key.keyCode)
-
+             if (x <= 50 || x+50 >= 1000 || y<= 50 || y+50 >= 1000 )  {
+                console.log("no te muevas")
+            } else {
                
             if (key.keyCode == 39) {
                 console.log("right");
@@ -47,13 +49,9 @@
 
             c1.style.left = x + "px";
             c1.style.top = y + "px";
-            
-        }
-        function paredes(){
-            if(x <= "50") || (x+"50" >= "1000" ){
-                console.log("no te muevas")
             }
         }
+         
 
      c1 = document.getElementById("laukia01");
         document.addEventListener("keydown", keyboard)
