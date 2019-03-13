@@ -1,0 +1,9 @@
+cars = ["jaguar","bmw","renault", precio[10,15,28,1000]]
+[ 'jaguar', 'bmw', 'renault', [ 10, 15, 28, 1000 ] ]
+
+
+cuadrado = {punto1 : {x:0, y:0},punto2 : {x:0,y:10},punto3 : {x:10 ,y:0 }, punto4 : {x:10,y:10}}
+{ punto1: { x: 0, y: 0 },
+  punto2: { x: 0, y: 10 },
+  punto3: { x: 10, y: 0 },
+  punto4: { x: 10, y: 10 } }
