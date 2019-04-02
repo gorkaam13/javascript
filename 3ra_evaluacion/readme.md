@@ -2,6 +2,6 @@
 
 ....
 npm init
-npm i http-server
+npm install express --save
 ...
-`
+`npm install express --save
