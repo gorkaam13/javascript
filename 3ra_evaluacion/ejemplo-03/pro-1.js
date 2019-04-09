@@ -11,12 +11,12 @@ var express = require('express');
 var app = express();
 
 tiempo = [
-  {dia:"Miércoles", cielo:"lluvia", temperatura:12},
-  {dia:"Jueves", cielo:"Nublado", temperatura:20},
-  {dia:"Viernes", cielo:"lluvia", temperatura:23},
-  {dia:"Sábado", cielo:"sol", temperatura:10},
-  {dia:"Domingo", cielo:"lluvia", temperatura:5},
-  {dia:"lunes", cielo:"Nublado", temperatura:0}
+  {dia:"martes", cielo:"sol_lluvioso", temperatura:12},
+  {dia:"Miércoles", cielo:"sol_lluvioso", temperatura:12},
+  {dia:"Jueves", cielo:"lluvia", temperatura:20},
+  {dia:"Viernes", cielo:"sol_lluvioso", temperatura:23},
+  {dia:"Sábado", cielo:"sol_nuboso", temperatura:10},
+  {dia:"Domingo", cielo:"sol_nuboso", temperatura:5}
 ]
 
 app.get('/', function (req, res) {
